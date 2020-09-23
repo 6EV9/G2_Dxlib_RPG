@@ -8,14 +8,14 @@
 #define GAME_WINDOW_BAR		0				//タイトルバーはデフォルトにする
 #define GAME_WINDOW_NAME	"Dxlib_Movie"	//ウィンドウのタイトル
 
-//▼▼▼▼▼ プログラム追加ここから ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼
+
 
 //MOVIEフォルダと、mp4ファイルも、追加して下さい
 #define MOVIE_PATH			".\\MOVIE\\neko.mp4"	//動画のパス
 
 int handle = -1;	//動画のハンドル
 
-//▲▲▲▲▲ プログラム追加ここまで ▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲
+
 
 //########## プログラムで最初に実行される関数 ##########
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow)
